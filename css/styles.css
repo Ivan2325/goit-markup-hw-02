@@ -17,7 +17,7 @@ a {
 }
 
 .logo {
-	font-family: "Railway", sans-serif;
+	font-family: "Raleway", sans-serif;
 		font-weight: 700;
 		font-size: 18px;
 		line-height: 1.17;
@@ -37,12 +37,26 @@ a {
 		color: #2E2F42;
 }
 
+.header-list-link:hover,
+ .header-list-link:focus {
+color: #404bbf;
+}
+
+.header-address {
+	font-style: normal;
+}
+
 .header-address-link {
 	font-weight: 400;
 		font-size: 16px;
 		line-height: 1.5;
 		letter-spacing: 0.02em;
 		color: #434455;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+color: #404bbf;
 }
 
 .hero {
@@ -52,7 +66,7 @@ a {
 .hero-title {
 	font-weight: 700;
 		font-size: 56px;
-		line-height: 1.07143;
+		line-height: 1.07;
 		letter-spacing: 0.02em;
 		text-align: center;
 		color: #FFFFFF;
@@ -89,13 +103,23 @@ a {
 		color:#434455;
 }
 
+.team {
+	background-color: #F4F4FD;
+}
+
+.team-list-item {
+	background-color: #FFFFFF;
+}
+
 .team-title {
 	font-weight: 700;
 		font-size: 36px;
-		line-height: 1.11111;
+		line-height: 1.11;
 		letter-spacing: 0.02em;
+		text-align: center;
+		text-transform: capitalize;
 		color: #2E2F42;
-}
+}	
 
 .team-list-subtitle {
 	font-weight: 500;
@@ -113,13 +137,20 @@ a {
 		color: #434455;
 }
 
+.portfolio {
+	background-color: #F4F4FD;
+}
+
 .portfolio-title {
 	font-weight: 700;
 		font-size: 36px;
-		line-height: 1.11111;
+		line-height: 1.11;
 		letter-spacing: 0.02em;
+		text-align: center;
+		text-transform: capitalize;
 		color: #2E2F42;
 }
+
 
 .portfolio-list-subtitle {
 	font-weight: 500;
