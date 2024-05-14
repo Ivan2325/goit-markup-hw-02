@@ -1,6 +1,72 @@
+body {
+	font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+}
+
+
 ul {
 	list-style-type: none;
 }
 a {
 	text-decoration: none;
+}
+
+.header-logo {
+	font-family: "Railway", sans-serif;
+	font-weight: 700;
+		font-size: 18px;
+		line-height: 1.17;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: #4d5ae5;
+}
+
+.header-logo-blue {
+	color: #2e2f42;
+}
+
+.header-list-link {
+	font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #2E2F42;
+}
+
+.header-address-link {
+	font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #434455;
+}
+
+.hero {
+	background-color: #2e2f42;
+}
+
+.hero-title {
+	font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07143;
+		letter-spacing: 0.02em;
+		text-align: center;
+		color: #FFFFFF;
+}
+
+.hero-btn {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.04em;
+        color: #FFFFFF;
+		background-color: #4D5AE5;
+		cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: #404BBF;
 }
