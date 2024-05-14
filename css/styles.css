@@ -12,17 +12,20 @@ a {
 	text-decoration: none;
 }
 
-.header-logo {
+.logo-blue {
+		color: #4d5ae5;
+}
+
+.logo {
 	font-family: "Railway", sans-serif;
-	font-weight: 700;
+		font-weight: 700;
 		font-size: 18px;
 		line-height: 1.17;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
-		color: #4d5ae5;
 }
 
-.header-logo-blue {
+.header-logo {
 	color: #2e2f42;
 }
 
@@ -69,4 +72,83 @@ a {
 .hero-btn:hover,
 .hero-btn:focus {
 	background-color: #404BBF;
+}
+.features-list-subtitle {
+	font-weight: 500;
+		font-size: 20px;	
+		line-height: 1.2;
+		letter-spacing: 0.02em;
+		color: #2E2F42;
+}
+
+.features-list-text {
+	font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color:#434455;
+}
+
+.team-title {
+	font-weight: 700;
+		font-size: 36px;
+		line-height: 1.11111;
+		letter-spacing: 0.02em;
+		color: #2E2F42;
+}
+
+.team-list-subtitle {
+	font-weight: 500;
+		font-size: 20px;	
+		line-height: 1.2;
+		letter-spacing: 0.02em;
+		color: #2E2F42;
+}
+
+.team-list-text {
+	font-weight: 400;
+		font-size: 16px;	
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #434455;
+}
+
+.portfolio-title {
+	font-weight: 700;
+		font-size: 36px;
+		line-height: 1.11111;
+		letter-spacing: 0.02em;
+		color: #2E2F42;
+}
+
+.portfolio-list-subtitle {
+	font-weight: 500;
+		font-size: 20px;	
+		line-height: 1.2;
+		letter-spacing: 0.02em;
+		color: #2E2F42;
+}
+
+.portfolio-list-text {
+	font-weight: 400;
+		font-size: 16px;	
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #434455;
+}
+
+.footer-text {
+	font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #F4F4FD;
+}
+
+.footer {
+	background-color: #2E2F42;
+}
+
+.footer-logo {
+color: #F4F4FD;
 }
